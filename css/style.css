@@ -108,9 +108,7 @@ li a {
     justify-self: left;
 }
 
-.banner-boton:hover {
-    box-shadow: 0 0 15px 5px rgb(185, 82, 154);
-}
+
 
 .banner-link {
     display: grid;
