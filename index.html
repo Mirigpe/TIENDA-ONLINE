@@ -9,87 +9,143 @@
 </head>
 <body>
     <header class="header">
-        <a class="logo" href="index.html">
-            <img src="img/logo.png" alt="Logo">
-        </a>
-        <div class="header-menu">
-            <form action="#" class="search-bar">
-                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-                <input type="search" placeholder="Buscar" name="q">
-            </form>
-            <a href="#">
-                <i class="fa-solid fa-user"></i>
+        <div class="header-bar">
+            <a class="logo" href="index.html">
+                <img src="img/logo.png" alt="Logo">
             </a>
-            <a href="#">
-                <i class="fa-solid fa-cart-shopping"></i>
-            </a>
-            <button hidden class="menu-toggle">
-                <i class="fa-solid fa-bars"></i>
-            </button>
-        </div> 
-    </header>
-        <nav class="nav-menu">
-            <ul>
-                <li><a href="#">Categoría</a></li>
-                <li><a href="#">Categoría</a></li>
-                <li><a href="#">Categoría</a></li>
-                <li><a href="#">Categoría</a></li>
-                <li><a href="#">Categoría</a></li>
-                <li><a href="#">Categoría</a></li>
-                <li><a href="#">Categoría</a></li>
-            </ul>
-        </nav>
-    <main>
-        <div class="banner-1">
-            <div class="banner-content">
-                <h3>Lorem ipsum dolor sit!</h2>
-                <h1>illum hic iure ?</h1>
-                <h3>Ex eaque voluptates dignissimos</h3>
-            </div>
-            <div class="banner-img">
+            <div class="header-menu">
+                <form action="#" class="search-bar">
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <input type="search" placeholder="Buscar" name="q">
+                </form>
                 <a href="#">
-                    <img src="img/banner-1.jpg" alt="imagen de labiales">
+                    <i class="fa-solid fa-user"></i>
                 </a>
-            </div>
-            <div class="banner-boton">
-                <button class="banner-boton">
-                    Compra ahora
-                </button>
-            </div>
+                <a href="#">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+            </div> 
         </div>
-        <a class="banner-1 banner-link" href="#">Consulta terminos y condiciones en</a>
-        <div class="banner-2">
+        <div class="nav-bar">
+            <nav class="nav-menu">
+                <ul>
+                    <li><a class="selected" href="#">Categoría 1</a></li>
+                    <li><a href="#">Categoría 2</a></li>
+                    <li><a href="#">Categoría 3</a></li>
+                    <li><a href="#">Categoría 4</a></li>
+                    <li><a href="#">Categoría 5</a></li>
+                    <li><a href="#">Categoría 6</a></li>
+                    <li><a href="#">Categoría 7</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
+    <!--BANNER-->
+
+    <main class="banner">
+        <div class="banner-principal">
+            <div class="banner-contenido principal">
+                <h2 class="text-principal">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h2>
+                <a class="img-principal" href="#">
+                    <img src="/img/banner-principal.jpg" alt="">
+                </a>
+                <button class="btn">Compra Ahora</button>
+            </div>
+            <a class="banner-terminos principal" href="#">Consulta Términos y Condiones en</a>
+        </div>
+        <div class="banner-secundario">
+            <div class="banner-contenido secundario">
+                <a class="img-secundario" href="#">
+                    <img src="/img/banner-secundario.png" alt="">
+                </a>
+                <h2 class="text-secundario">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h2>
+                <button class="btn">Compra Ahora</button>
+            </div>
+            <a class="banner-terminos secundario" href="#">Consulta Términos y Condiones en</a>
         </div>
     </main>
-    <section class="favoritos_descuentos">
 
-    </section>
-    <section class="cards">
-
-    </section>
-    <section>
-        <div>
-
-        </div>
-        <div>
-            
-        </div>
-    </section>
-    <section class="favoritos">
-
-    </section>
-    <section class="novedades">
-
-    </section>
-    <div>
-
+    <!--SLIDER PRINCIPAL-->
+    <div class="btns">
+        <button id="prev-slide" class="slider-btn" style="display: block;"><i class="fa-solid fa-arrow-left"></i></button>
+        <button id="next-slide" class="slider-btn"><i class="fa-solid fa-arrow-right"></i></button>
     </div>
-    <section class="mas ayuda">
+    <div class="container">
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slider-item">
+                    <img src="/img/card 2.jpg" alt="">
+                    <div class="product-info">
+                        <h4 class="product-title">Dior Backstage Glow Face Palette</h4>
+                        <p class="product-price">1.450,00 $</p>
+                        <a href="#" class="product-btn">Comprar Ahora</a>
+                    </div>
+                </div>
+                <div class="slider-item">
+                    <img src="/img/card 2.jpg" alt="">
+                    <div class="product-info">
+                        <h4 class="product-title">Dior Backstage Glow Face Palette</h4>
+                        <p class="product-price">1.450,00 $</p>
+                        <a href="#" class="product-btn">Comprar Ahora</a>
+                    </div>
+                </div>
+                <div class="slider-item">
+                    <img src="/img/card 2.jpg" alt="">
+                    <div class="product-info">
+                        <h4 class="product-title">Dior Backstage Glow Face Palette</h4>
+                        <p class="product-price">1.450,00 $</p>
+                        <a href="#" class="product-btn">Comprar Ahora</a>
+                    </div>
+                </div>
+                <div class="slider-item">
+                    <img src="/img/card 2.jpg" alt="">
+                    <div class="product-info">
+                        <h4 class="product-title">Dior Backstage Glow Face Palette</h4>
+                        <p class="product-price">1.450,00 $</p>
+                        <a href="#" class="product-btn">Comprar Ahora</a>
+                    </div>
+                </div>
+                <div class="slider-item">
+                    <img src="/img/card 2.jpg" alt="">
+                    <div class="product-info">
+                        <h4 class="product-title">Dior Backstage Glow Face Palette</h4>
+                        <p class="product-price">1.450,00 $</p>
+                        <a href="#" class="product-btn">Comprar Ahora</a>
+                    </div>
+                </div>
+                <div class="slider-item">
+                    <img src="/img/card 2.jpg" alt="">
+                    <div class="product-info">
+                        <h4 class="product-title">Dior Backstage Glow Face Palette</h4>
+                        <p class="product-price">1.450,00 $</p>
+                        <a href="#" class="product-btn">Comprar Ahora</a>
+                    </div>
+                </div>
+                <div class="slider-item">
+                    <img src="/img/card 2.jpg" alt="">
+                    <div class="product-info">
+                        <h4 class="product-title">Dior Backstage Glow Face Palette</h4>
+                        <p class="product-price">1.450,00 $</p>
+                        <a href="#" class="product-btn">Comprar Ahora</a>
+                    </div>
+                </div>
+                <div class="slider-item">
+                    <img src="/img/card 2.jpg" alt="">
+                    <div class="product-info">
+                        <h4 class="product-title">Dior Backstage Glow Face Palette</h4>
+                        <p class="product-price">1.450,00 $</p>
+                        <a href="#" class="product-btn">Comprar Ahora</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
 
-    </section>
-    <footer>
 
-    </footer>
+   <script src="/js/script.js"></script>
 </body>
 </html>
